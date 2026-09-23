@@ -1,6 +1,8 @@
 # Lab 1 · AI and contribution record
 
-**Members:** TO COMPLETE.
+**Members:** 
+- Andy Villarroel
+- Agustín Reyes
 
 ---
 
