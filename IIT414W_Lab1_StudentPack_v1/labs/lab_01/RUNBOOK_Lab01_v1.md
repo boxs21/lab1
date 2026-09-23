@@ -13,6 +13,6 @@ Actual environment and execution evidence:
 - Data mode: `snapshot` (local CSVs in data/samples/lab01_v1, no network, no API credentials). Source CSVs and lab01_manifest_v1.json unchanged.
 - Changes to this procedure: none. One analysis correction (keeping the 3 rows with missing qualifying instead of dropping them) is documented in notebook section 5.
 - Freeze commit (before RUN_TEST=True): c38a1f9 (23 September 2026).
-- Final Restart & Run All: [23/09/2026 20:13hrs] · result: [ran without errors] · submitted commit: [3fc3497].
+- Final Restart & Run All: [23/09/2026 20:13hrs] · result: [ran without errors] · submitted commit: [de5bda9].
 
 Submission uses GitHub + Canvas as stated in the brief. Include support code and the six CSVs plus lab01_manifest_v1.json. No API credentials are needed. If your environment is blocked, record the exact error and contact the teaching team; do not label synthetic practice as real data.
