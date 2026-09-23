@@ -23,7 +23,7 @@
 | # | Prompt | AI output (summary) | Accepted / changed |
 |:-:|---|---|---|
 | 0 | *Orientation:* analyse the lab folder/MD files and give options for the three EDA questions | Flagged that the `dropna` in cell 6 contradicts the brief. It flips the training majority from **0** (600/1200, exact tie) to **1** (599/1197). Proposed EDA options A–F | Accepted |
-| 1 | *"What columns in the dataset could we use to analyze this question?"* (Q1) | `qualifying_position`, `target_top10`, `season`/`round`, `qualifying_match`. Do not use `grid`, `position`, `points`, `status` or `laps` as predictors | TO COMPLETE |
+| 1 | *"What columns in the dataset could we use to analyze this question?"* (Q1) | `qualifying_position`, `target_top10`, `season`/`round`, `qualifying_match`. Do not use `grid`, `position`, `points`, `status` or `laps` as predictors | Accepted |
 | 2 | *"What columns in the dataset could we use to analyze this question?"* (Q3) | `qualifying_position`, `grid`, `target_top10`, `driver_id`/`season`/`round`, optional `status`. Hints: meaning of `grid = 0`, rows crossing the P10 cut, NaN qualifying rows | Accepted |
 | 3 | *"How can I relate these two variables (grid and qualifying position), and which pandas commands should I use?"* | Full working code with `==`, `between()`, `pd.crosstab()` and `groupby().agg()`: mismatch summary, pit-lane starts, 2×2 table of P10 side, outcomes for rows crossing the cut | Accepted |
 | 4 | *"How do I create a correlation chart at the end of Q3? Which of the data I already have should I cross?"* | Qualifying (x) vs grid (y). A first, more complex version was simplified at our request; **we used the simple scatter** (identity line, `alpha`, Pearson `.corr()`). Pointed out the misleading-correlation trap | Accepted |
